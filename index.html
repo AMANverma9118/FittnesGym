@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Aman Fitness</title>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet">
 
@@ -142,13 +143,18 @@
         .btn2:hover{
             color: brown;
         }
+        @media screen and (max-width: 800px) {
+  .left, .right, .navber li a, .btn, .btn2 , .btn2:hover, .btn:hover ,.container, .form-group, .navbar  {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
     </style>
 </head>
 
 <body>
     <header>
         <div class="left">
-            <img src="img/gym.jpg" alt="">
+            <img src="img/gym.jpg" >
             <div>
                <a href="/home.html"> Aman Fitness</a>
             </div>
